@@ -122,7 +122,7 @@ test.describe('Ecarehealth End-to-End Flow', () => {
    await page.click('text="Availability", [data-testid*="availability"]');
    await page.waitForTimeout(2000);
   
-   // Click Edit Availabilitygit 
+   // Click Edit Availabilitygit
    await page.click('text="Edit Availability", button:has-text("Edit"), [data-testid*="edit-availability"]');
    await page.waitForTimeout(2000);
   
